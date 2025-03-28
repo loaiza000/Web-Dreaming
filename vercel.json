@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 1,
   "builds": [
     {
       "src": "server.js",
@@ -7,22 +7,6 @@
     }
   ],
   "routes": [
-    {
-      "src": "/css/(.*)",
-      "dest": "/public/css/$1"
-    },
-    {
-      "src": "/js/(.*)",
-      "dest": "/public/js/$1"
-    },
-    {
-      "src": "/images/(.*)",
-      "dest": "/public/images/$1"
-    },
-    {
-      "src": "/(.*)\\.(jpg|jpeg|png|gif|svg)$",
-      "dest": "/public/$1"
-    },
     {
       "src": "/(.*)",
       "dest": "/server.js"

@@ -4,17 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dreaming - Productos</title>
+    <script>
+        // Definir ethereum como undefined
+        window.ethereum = undefined;
+        window.web3 = undefined;
+        
+        // Bloquear la redefinición de propiedades
+        const originalDefineProperty = Object.defineProperty;
+        Object.defineProperty = function(obj, prop, descriptor) {
+            if (prop === 'ethereum' || prop === 'web3') {
+                return;
+            }
+            return originalDefineProperty(obj, prop, descriptor);
+        };
+
+        // Bloquear eventos de carga
+        const originalAddEventListener = window.addEventListener;
+        window.addEventListener = function(type, listener, options) {
+            if (type === 'load' && listener.toString().includes('evmAsk')) {
+                return;
+            }
+            return originalAddEventListener.call(this, type, listener, options);
+        };
+
+        // Bloquear la creación de scripts
+        const originalCreateElement = document.createElement;
+        document.createElement = function(tagName) {
+            if (tagName.toLowerCase() === 'script') {
+                const script = originalCreateElement.call(this, tagName);
+                const originalSetAttribute = script.setAttribute;
+                script.setAttribute = function(name, value) {
+                    if (name.toLowerCase() === 'src' && value.includes('evmAsk')) {
+                        return;
+                    }
+                    return originalSetAttribute.call(this, name, value);
+                };
+                return script;
+            }
+            return originalCreateElement.call(this, tagName);
+        };
+    </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="/public/css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
     <nav class="nav">
         <div class="container">
             <div class="logo-container">
                 <a href="/" class="logo-link">
-                    <img src="/public/logo.png" alt="Dreaming Logo" style="width: 50px; height: 50px;">
+                    <img src="/logo.png" alt="Dreaming Logo" style="width: 50px; height: 50px;">
                     <span class="brand-name">Dreaming</span>
                 </a>
             </div>
@@ -188,7 +228,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="/public/logo.png" alt="Dreaming Logo">
+                    <img src="/logo.png" alt="Dreaming Logo">
                 </div>
                 <div class="footer-info">
                     <h3>2025 Dreaming - Vivir para soñar, soñar para vivir</h3>

@@ -2,6 +2,11 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
+// Función para manejar rutas
+app.locals.url = function(path) {
+    return path;
+};
+
 // Configuración de EJS y archivos estáticos
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
