@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Dirección General -->
+    <g transform="translate(350,20)">
+        <rect x="0" y="0" width="200" height="60" rx="10" fill="#1a1a1a" stroke="#FFD700" stroke-width="2"/>
+        <text x="100" y="30" text-anchor="middle" fill="#FFD700" font-family="Arial" font-size="14" font-weight="bold">DIRECCIÓN GENERAL</text>
+        <text x="100" y="45" text-anchor="middle" fill="#FFD700" font-family="Arial" font-size="12">Director General</text>
+    </g>
+
+    <!-- Connecting Lines -->
+    <line x1="450" y1="80" x2="450" y2="120" stroke="#FFD700" stroke-width="2"/>
+    <line x1="200" y1="120" x2="700" y2="120" stroke="#FFD700" stroke-width="2"/>
+    <line x1="200" y1="120" x2="200" y2="160" stroke="#FFD700" stroke-width="2"/>
+    <line x1="450" y1="120" x2="450" y2="160" stroke="#FFD700" stroke-width="2"/>
+    <line x1="700" y1="120" x2="700" y2="160" stroke="#FFD700" stroke-width="2"/>
+
+    <!-- Área Clínica -->
+    <g transform="translate(100,160)">
+        <rect x="0" y="0" width="200" height="60" rx="10" fill="#1a1a1a" stroke="#FFD700" stroke-width="2"/>
+        <text x="100" y="30" text-anchor="middle" fill="#FFD700" font-family="Arial" font-size="14" font-weight="bold">ÁREA CLÍNICA</text>
+        <text x="100" y="45" text-anchor="middle" fill="#FFD700" font-family="Arial" font-size="12">Direc. Médico</text>
+    </g>
+
+    <!-- Área Administrativa -->
+    <g transform="translate(350,160)">
+        <rect x="0" y="0" width="200" height="60" rx="10" fill="#1a1a1a" stroke="#FFD700" stroke-width="2"/>
+        <text x="100" y="30" text-anchor="middle" fill="#FFD700" font-family="Arial" font-size="14" font-weight="bold">ÁREA ADMINISTRA</text>
+        <text x="100" y="45" text-anchor="middle" fill="#FFD700" font-family="Arial" font-size="12">Director Adm</text>
+    </g>
+
+    <!-- Innovación TEC -->
+    <g transform="translate(600,160)">
+        <rect x="0" y="0" width="200" height="60" rx="10" fill="#1a1a1a" stroke="#FFD700" stroke-width="2"/>
+        <text x="100" y="30" text-anchor="middle" fill="#FFD700" font-family="Arial" font-size="14" font-weight="bold">INNOVACIÓN TEC</text>
+        <text x="100" y="45" text-anchor="middle" fill="#FFD700" font-family="Arial" font-size="12">Director Tec</text>
+    </g>
+</svg>

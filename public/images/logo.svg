@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Outer Circle -->
+    <circle cx="100" cy="100" r="90" fill="#1a1a1a" stroke="#FFD700" stroke-width="4"/>
+    
+    <!-- Inner Design - Abstract Dream Cloud -->
+    <path d="M60,100 Q80,60 100,80 T140,90 Q160,100 140,120 T90,130 Q60,120 60,100" 
+          fill="none" stroke="#FFD700" stroke-width="3"/>
+    
+    <!-- Stars -->
+    <circle cx="75" cy="85" r="2" fill="#FFD700"/>
+    <circle cx="125" cy="95" r="2" fill="#FFD700"/>
+    <circle cx="95" cy="115" r="2" fill="#FFD700"/>
+    <circle cx="140" cy="75" r="2" fill="#FFD700"/>
+    
+    <!-- Text -->
+    <text x="100" y="160" text-anchor="middle" fill="#FFD700" 
+          font-family="Arial" font-size="24" font-weight="bold">DREAMING</text>
+</svg>

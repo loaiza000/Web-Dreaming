@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Debilidades -->
+    <g transform="translate(20,20)">
+        <rect x="0" y="0" width="370" height="270" rx="10" fill="#1a1a1a" stroke="#FFD700" stroke-width="2"/>
+        <text x="20" y="40" fill="#FFD700" font-family="Arial" font-size="20" font-weight="bold">DEBILIDADES</text>
+        <text x="20" y="80" fill="#FFD700" font-family="Arial" font-size="14">• Costos elevados</text>
+        <text x="20" y="110" fill="#FFD700" font-family="Arial" font-size="14">• Falta de recursos</text>
+        <text x="20" y="140" fill="#FFD700" font-family="Arial" font-size="14">• Dependencia tecnológica</text>
+        <text x="20" y="170" fill="#FFD700" font-family="Arial" font-size="14">• Falta de contacto humano</text>
+    </g>
+
+    <!-- Fortalezas -->
+    <g transform="translate(410,20)">
+        <rect x="0" y="0" width="370" height="270" rx="10" fill="#1a1a1a" stroke="#FFD700" stroke-width="2"/>
+        <text x="20" y="40" fill="#FFD700" font-family="Arial" font-size="20" font-weight="bold">FORTALEZAS</text>
+        <text x="20" y="80" fill="#FFD700" font-family="Arial" font-size="14">• Innovación y creatividad</text>
+        <text x="20" y="110" fill="#FFD700" font-family="Arial" font-size="14">• Diferenciación en el medio</text>
+        <text x="20" y="140" fill="#FFD700" font-family="Arial" font-size="14">• Buena reputación</text>
+        <text x="20" y="170" fill="#FFD700" font-family="Arial" font-size="14">• Tecnología avanzada</text>
+    </g>
+
+    <!-- Amenazas -->
+    <g transform="translate(20,310)">
+        <rect x="0" y="0" width="370" height="270" rx="10" fill="#1a1a1a" stroke="#FFD700" stroke-width="2"/>
+        <text x="20" y="40" fill="#FFD700" font-family="Arial" font-size="20" font-weight="bold">AMENAZAS</text>
+        <text x="20" y="80" fill="#FFD700" font-family="Arial" font-size="14">• Competencia en el sector</text>
+        <text x="20" y="110" fill="#FFD700" font-family="Arial" font-size="14">• Regulación y normativas</text>
+        <text x="20" y="140" fill="#FFD700" font-family="Arial" font-size="14">• Rechazo cultural o social</text>
+        <text x="20" y="170" fill="#FFD700" font-family="Arial" font-size="14">• Obsolescencia tecnológica</text>
+    </g>
+
+    <!-- Oportunidades -->
+    <g transform="translate(410,310)">
+        <rect x="0" y="0" width="370" height="270" rx="10" fill="#1a1a1a" stroke="#FFD700" stroke-width="2"/>
+        <text x="20" y="40" fill="#FFD700" font-family="Arial" font-size="20" font-weight="bold">OPORTUNIDADES</text>
+        <text x="20" y="80" fill="#FFD700" font-family="Arial" font-size="14">• Expansión a nuevos mercados</text>
+        <text x="20" y="110" fill="#FFD700" font-family="Arial" font-size="14">• Avances en IA</text>
+        <text x="20" y="140" fill="#FFD700" font-family="Arial" font-size="14">• Alta demanda</text>
+        <text x="20" y="170" fill="#FFD700" font-family="Arial" font-size="14">• Alianzas estratégicas</text>
+    </g>
+</svg>
